@@ -630,6 +630,10 @@
     padding: 0 45px;
   }
 
+  .banner {
+    margin-bottom: 150px;
+    padding: 172px 0 150px 0;
+  }
   .banner_content-offset h1 {
     font-size: 45px;
   }
@@ -697,6 +701,12 @@
     display: block;
   }
 
+  .nav {
+    min-height: 60px;
+  }
+  .nav_wrap {
+    padding: 27px 0;
+  }
   .nav_aside {
     margin-left: auto;
   }
@@ -710,6 +720,9 @@
     display: none;
   }
 
+  .banner {
+    padding: 232px 0 100px 0;
+  }
   .banner_wrapp {
     flex-direction: column;
   }
@@ -767,6 +780,17 @@
     max-width: 375px;
   }
 
+  .nav {
+    min-height: 50px;
+  }
+  .nav_wrap {
+    padding: 16px 0;
+  }
+
+  .banner {
+    padding: 147px 0 100px 0;
+    margin-bottom: 45px;
+  }
   .banner_img {
     height: 310px;
   }
