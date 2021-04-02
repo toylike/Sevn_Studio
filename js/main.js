@@ -80,7 +80,7 @@ changeStyle.addEventListener('click', function(e){
 let el_audio = document.querySelector('.article_audio');
 let playing = false;
 
-let player = new Audio('../audio/Beds_and_Beats_-_Cold_Treats_63435605.mp3');
+let player = new Audio('audio/Beds_and_Beats_-_Cold_Treats_63435605.mp3');
 player.preload = "auto";
 player.addEventListener('ended', function(){
   playing = false;
@@ -100,3 +100,12 @@ function playPause(e) {
   }
   playing = !playing;
 }
+
+// let el_audio = document.querySelector('.article_audio');
+// el_audio.addEventListener('click', sound);
+
+// function sound() {
+//   var audio = new Audio(); // Создаём новый элемент Audio
+//   audio.src = 'audio/Beds_and_Beats_-_Cold_Treats_63435605.mp3'; // Указываем путь к звуку "клика"
+//   audio.autoplay = true; // Автоматически запускаем
+// }

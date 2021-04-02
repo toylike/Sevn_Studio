@@ -114,6 +114,9 @@
 .main_wrapp-white .article_card_footer a::after {
   background-image: url(../img/Vector_black.png);
 }
+.main_wrapp-white .article_audio-active::before, .main_wrapp-white .article_audio-active::after {
+  border-top: 1px solid #232321;
+}
 
 @font-face {
   font-family: "Gilroy";

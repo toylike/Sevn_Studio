@@ -160,6 +160,10 @@
                 }
             }
         }
+
+        &_audio-active::before, &_audio-active::after{
+            border-top: 1px solid #232321;
+        }
     }
 
 
